@@ -24,6 +24,13 @@ Style changes in footer
   color: #ffff;
   display: flex;
   justify-content: center;
+
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
 }
 
   
