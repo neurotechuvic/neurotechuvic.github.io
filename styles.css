@@ -1,0 +1,29 @@
+
+body {
+  background-color: lightblue;
+  
+}
+
+h1 {
+  color: rgb(18, 18, 18);
+  text-align: center;
+  font-size: 50px;
+}
+
+
+/* 
+Style changes in footer
+*/
+.footer-container {
+  background-color: #131413;
+  padding-bottom: 4rem;
+
+}
+
+.footer{
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+}
+
+  
