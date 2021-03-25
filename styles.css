@@ -21,9 +21,11 @@ Style changes in footer
 }
 
 .footer{
+  width: 100%;
   color: #ffff;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 
 }
 
