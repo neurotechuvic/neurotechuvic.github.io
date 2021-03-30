@@ -27,14 +27,15 @@ body  {margin:0;}
 .slideshow {
   padding: 0px;
   margin-top: 60px;
-  height: 550px; /* Used in this example to enable scrolling */
+  height: 500px; 
 }
 
+/* first bit*/
 .intro{
   background-color: rgb(236, 213, 109);
   background-size: cover;
   font-size: 40px;
-  min-height: 100vh;
+  min-height: 0vh;
 }
 
 .h1{
