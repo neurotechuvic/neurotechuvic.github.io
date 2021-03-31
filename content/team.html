@@ -1,76 +1,134 @@
-
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width initial-scale=1">
-    <link rel="stylesheet" href="../styles.css"></link>
-
-    <title>Neurotech club website</title>
-
-    <style>
-        h1 {
-            text-align: center;
-        }
-    </style>
-
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroTech</title>
+    <meta property="og:image" content="../imgs/logo.png">
+    <meta property="og:type" content="website">
+    <meta name="description" content=" NeuroTechUniversity of Victoria">
+  <link rel="stylesheet" href="tstyles.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="background-color: rgb(18,18,20);">
-        <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" 
-            style="background-color: #ffffff;">
-            <span class="sr-only"></span><span class="navbar-toggler-icon text-white">
-            </span></button>
-            <div class="collapse navbar-collapse"
-                id="navcol-1"><a href="index.html"><img src="imgs/logo.png" style="width: 91px;margin: 20px;"></a>
-                <ul class="nav navbar-nav d-flex flex-row justify-content-center mr-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html" style="font-family: Rokkitt, serif;font-size:
-                     20px;color: rgb(194,194,194);">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="team.html" style="font-family: Rokkitt, 
-                    serif;font-size: 20px;color: rgb(255,255,255);">Team</a></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <div class="navbar">
+    <div class="collapse navbar-collapse"
+    id="navcol-1"><a href="../index.html"
+    ><img src="../imgs/logo.png" style="width:91px;margin: 8px;"></a>  </div>
+    <a href="../index.html">Home</a>
+    <a href="team.html">Team</a>
+    <a href="resources.html">Resource</a>
+    <a href="projects.html">Projects</a>
+    <a href="joinUs.html">Join Us</a>
+  </div>
 
-    <div class="justify-content-center align-items-center"
-    data-bs-parallax-bg="true" style="height: 50vh;background-image: url(&quot;imgs/img2.png&quot;);
-    background-position: center;background-size: cover;">
-    <div class="container text-center justify-content-center" style="padding:
-     0px;padding-top: 7rem;padding-bottom: 
-    10rem;padding-left: 100;padding-right: 0;">
-    
+
+
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="../imgs/img4.png" alt="Gabe" style="width:100%">
+      <div class="container">
+        <h2>Gabe Taves</h2>
+        <p class="title"> Co-President </p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
     </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="../imgs/img4.png" alt="Debrah" style="width:100%">
+      <div class="container">
+        <h2>Debrah Wyatt</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="../imgs/img4.png" alt="Daniela" style="width:100%">
+      <div class="container">
+        <h2>Daniela Gallegos Dupuis</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="../imgs/img4.png" alt="Sanskruti" style="width:100%">
+      <div class="container">
+        <h2>Sanskruti Padamawar</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="../imgs/img4.png" alt="Adam" style="width:100%">
+      <div class="container">
+        <h2>Adam Patterson</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
 </div>
 
 
-    <h1> Our Team </h1>
+   
     <!--
     This is a footer
 -->
-    <div class="footer-container">
-        <div class="footer">
-            <div class="footer-heading footer-1">
-                <h2>About us</h2>
-                <a href="https://neurotechx.github.io/studentclubs/">Competitions</a>
-                <a href="./resources.html">Resources</a>
-                <a href="./team.html">Our Team</a>
-                <a href="./contact.html">Contact Us</a>
-            </div>
-            <div class="footer-heading footer-2">
-                <h2>Social Media</h2>
-                <a href="#">GitHub</a>
-            </div>
-        </div>
-    </div>
+  
+<footer>
+  <div class="container">
+      <div class="footer-container">
+          <div class="footer">
+              <div class="footer-heading footer-1">
+                  <h2>About us</h2>
+                  <a href="https://neurotechx.github.io/studentclubs/">Competitions</a>
+                  <a href="index.html">Home</a>
+                  <a href="./content/resources.html">Resources</a>
+                  <a href="./content/team.html">Our Team</a>
+                  <a href="./content/contact.html">Contact Us</a>
+              </div>
+              <div class="footer-heading footer-2">
+                  <h2>Social Media</h2>
+                  <a href="#">GitHub</a>
+              </div>
+          </div>
+      </div>
+  
+  </div>
+</footer>
 
-    <!--
-    This is the end of the body
--->
+
+
+
 </body>
-
 </html>

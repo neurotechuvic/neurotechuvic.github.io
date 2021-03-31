@@ -1,15 +1,79 @@
 
-body {
-  background-color: lightblue;
-  
+body  {margin:0;}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(13, 2, 105);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-h1 {
-  color: rgb(18, 18, 18);
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
-  font-size: 50px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 27px;
 }
 
+.navbar a:hover {
+  color: rgb(204, 208, 7);
+}
+
+/* slide show */
+.slideshow {
+  padding: 0px;
+  margin-top: 60px;
+  height: 490px; 
+}
+
+/* first bit*/
+.intro{
+  background-color: rgb(236, 213, 109);
+  background-size: cover;
+  font-size: 40px;
+  min-height: 0vh;
+}
+
+.h1{
+  font-family: Rokkitt, serif;
+  color: rgb(255,255,255);
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 31px;
+  text-align: center;
+}
+
+.card{
+ background-color: rgba(255,255,255,0.87);
+ margin-bottom:100px;
+ margin-left:100px;
+ text-align: center;
+  margin-right:20px;
+   width:1165px;
+    padding:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.second{
+  background-color: rgb(236, 145, 109);
+  background-size: cover;
+  font-size: 40px;
+  margin-top: 800px;
+  min-height: 120vh;
+}
+
+.third{
+  background-color:rgb(61,167,196);
+  background-size: cover;
+  font-size: 40px;
+  margin-top: 0px;
+  min-height: 0vh;
+}
 
 /* 
 Style changes in footer
