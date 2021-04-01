@@ -137,5 +137,34 @@ Style changes in footer
 */
 .footer_heading a:hover{
   color:rgb(13, 2, 105);
+  transition: .4s ease-out;
+}
+
+#logo{
+  width: 50rem; 
+  padding-left: 450px;
+  padding-bottom: 0px;
+}
+
+#logo_container{
+  padding: 0px;
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#slideshow{
+  height: 80vh;
+  background-image: url(&quot;imgs/img2.png&quot;);
+  background-position: center;
+  background-size: cover;
+}
+
+#intro_div{
+  height: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
   transition: .2s ease-out;
 }
