@@ -88,7 +88,7 @@ body  {margin:0;}
 /* 
 Style changes in footer
 */
-.footer-container {
+.footer_container {
   background-color: #131413;
   padding-bottom: 4rem;
 
@@ -109,7 +109,7 @@ Style changes in footer
 /*
   Adjust Heading 1
 */
-.footer-heading {
+.footer_heading {
   display: flex;
   flex-direction: column;
   margin-right: 4rem;
@@ -118,14 +118,14 @@ Style changes in footer
 /*
   Adjust Heading 2
 */
-.footer-heading2{
+.footer_heading2{
   margin-bottom: 2rem;
 
 }
 /*
   Targets links
 */
-.footer-heading a {
+.footer_heading a {
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
@@ -135,7 +135,7 @@ Style changes in footer
 /*
   Selects color used when hovering over links in footer
 */
-.footer-heading a:hover{
+.footer_heading a:hover{
   color:rgb(13, 2, 105);
   transition: .4s ease-out;
 }
@@ -166,4 +166,5 @@ Style changes in footer
   padding-right: 0px;
   padding-left: 0px;
   padding-bottom: 0px;
+  transition: .2s ease-out;
 }
