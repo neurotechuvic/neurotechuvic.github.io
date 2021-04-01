@@ -137,5 +137,5 @@ Style changes in footer
 */
 .footer-heading a:hover{
   color:rgb(13, 2, 105);
-  transition: .4s ease-out;
+  transition: .2s ease-out;
 }
