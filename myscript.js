@@ -1,7 +1,7 @@
 
 
 
-console.log("hello world")
+console.log("watermellon")
 var mynumber = document.getElementById("myjs").innerHTML;
 
 
