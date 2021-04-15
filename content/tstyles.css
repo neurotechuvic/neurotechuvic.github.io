@@ -34,6 +34,10 @@ html {
   box-sizing: border-box;
 }
 
+h1 {
+  text-shadow: 2px 2px black;
+}
+
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -41,7 +45,7 @@ html {
 
 .column {
   float: left;
-  width: 33.3%;
+  width: 20%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -54,7 +58,7 @@ html {
 .about-section {
   padding: 200px;
   text-align: center;
-  background-color: #474e5d;
+  background-image: url(../imgs/neurons_glow_1920x1080.png);
   color: white;
 }
 
@@ -71,6 +75,7 @@ html {
 .title {
   color: grey;
 }
+
 
 .button {
   border: none;
