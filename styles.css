@@ -88,7 +88,7 @@ Clear floats (clearfix hack) */
 }
 
 .btn-group button:not(:last-child) {
-  border-right: none; /* Prevent double borders */s
+  border-right: none; /* Prevent double borders */
 }
 
 /* Add a background color on hover */
