@@ -72,7 +72,7 @@ h1{
   background-color: #4e4caf; /* Green background */
   border: 1px solid rgb(228, 210, 70); /* Green border */
   color: #ffffff; /* White text */
-  font-size: large;
+  font-size:xx-large;
  width: 350px;
  height: 350px;
   cursor: pointer; /* Pointer/hand icon */
@@ -88,7 +88,7 @@ Clear floats (clearfix hack) */
 }
 
 .btn-group button:not(:last-child) {
-  border-right: none; /* Prevent double borders */s
+  border-right: none; /* Prevent double borders */
 }
 
 /* Add a background color on hover */
@@ -145,7 +145,7 @@ Style changes in footer
 
 .footer{
   width: 100%;
-  color: #ffff;
+  color: #0D0269;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
