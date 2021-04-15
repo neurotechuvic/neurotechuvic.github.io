@@ -42,11 +42,3 @@ $(document).ready(function() {
                 })
         );                        
 });
-
-
-        // <a href="index.html">Home</a>
-        // <a href="content/team.html">Team</a>
-        // <a href="content/resources.html">Resource</a>
-        // <a href="content/projects.html">Projects</a>
-        // <a href="content/joinUs.html">Join Us</a> 
-
