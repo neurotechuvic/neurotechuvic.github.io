@@ -88,7 +88,7 @@ Clear floats (clearfix hack) */
 }
 
 .btn-group button:not(:last-child) {
-  border-right: none; /* Prevent double borders */s
+  border-right: none; /* Prevent double borders */
 }
 
 /* Add a background color on hover */
@@ -145,7 +145,7 @@ Style changes in footer
 
 .footer{
   width: 100%;
-  color: #ffff;
+  color: #0D0269;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
