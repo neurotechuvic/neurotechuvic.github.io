@@ -9,32 +9,6 @@ body  {margin:0;}
 }
 
 
-h4{
-  font-family: Rokkitt, serif;
-  font-size: 38px;
-}
-
-p{
-  font-size: 16px;
-  font-family: Roboto, sans-serif;
-  height: 290px;
-}
-
-button{
-  height: 80px;
-  font-size: 20px;
-  font-weight: 500;
-  margin: 5px 0px;
-}
-
-h1{
-  font-family: Rokkitt, serif;
-  color: rgb(255,255,255);
-  font-size: 60px;
-  font-weight: bold;
-  padding-top: 31px;
-  text-align: center;
-}
 
 .navbar {
   overflow: hidden;
@@ -56,7 +30,7 @@ h1{
 }
 
 .navbar a:hover {
-  color: rgb(204, 208, 7);
+  color: rgb(238, 179, 18);
 }
 
 /* slide show */
@@ -70,7 +44,7 @@ h1{
 
 .btn-group button {
   background-color: #4e4caf; /* Green background */
-  border: 1px solid rgb(228, 210, 70); /* Green border */
+  border: 1px solid rgb(236, 213, 109); /* Green border */
   color: #ffffff; /* White text */
   font-size:xx-large;
  width: 350px;
@@ -98,41 +72,6 @@ Clear floats (clearfix hack) */
 
 
 /* first writng bit*/
-.intro{
-  background-color: rgb(236, 213, 109);
-  background-size: cover;
-  font-size: 40px;
-  min-height: 0vh;
-}
-
-/* end of button */
-.card{
- background-color: rgba(255,255,255,0.87);
- margin-bottom:100px;
- margin-left:100px;
- text-align: center;
-  margin-right:20px;
-   width:1165px;
-    padding:10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
-.second{
-  background-color: rgb(236, 145, 109);
-  background-size: cover;
-  font-size: 40px;
-  margin-top: 800px;
-  min-height: 120vh;
-}
-
-.third{
-  background-color:rgb(61,167,196);
-  background-size: cover;
-  font-size: 40px;
-  margin-top: 0px;
-  min-height: 0vh;
-}
 
 /* 
 Style changes in footer

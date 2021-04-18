@@ -7,23 +7,8 @@ if(!window.location.href.includes("index.html")){
 
 const parent = "footer";
 
-//When the document is ready
 $(document).ready(function() {
         //Append onto parent
-        $(parent).append(
-                $('<a>').prop({
-                        id: 'footer_nav',
-                        href: '#',
-                        clssName: '',
-                })
-        );
-        $(parent).append(
-                $('<i>').prop({
-                        className: 'fa fa-arrow-up w3-margin-right',
-                        href: '#',
-                        innerHTML: 'To the top'
-                })
-        );
         $(parent).append(
                 $('<div>').prop({
                         className: '',
