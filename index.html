@@ -3,56 +3,58 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>NeuroTech Uvic</title>
+    <meta charset="utf-8">
+    <meta name="description" content="NeuroTech UVic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta property="og:image" content="imgs/logo_shadow.png">
     <meta property="og:type" content="website">
-    <meta name="description" content="NeuroTech UVic">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="./content/tstyles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/tstyles.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="apps.js">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Stuff for Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
     </link>
-
 </head>
 
 <body>
+    <!-- The heading navbar -->
     <div id="navbar" class="navbar"></div>
 
-    <img src="imgs\logo_shadow.png" class="logo">
+    <!-- <div style="text-align: center; margin-left: auto; margin-right: auto"> -->
+        <!-- Still image on top of slideshow -->
+        <img src="imgs\logo_shadow.png" class="logo">
 
-    <!-- Code for body image carousel -->
-<div id="bodyCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#bodyCarousel" data-slide-to="0" class=""></li>
-        <li data-target="#bodyCarousel" data-slide-to="1" class=""></li>
-        <li data-target="#bodyCarousel" data-slide-to="2" class="active"></li>
-    </ol>
+        <!-- Code for body image carousel -->
+        <div id="bodyCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#bodyCarousel" data-slide-to="0" class=""></li>
+                <li data-target="#bodyCarousel" data-slide-to="1" class=""></li>
+                <li data-target="#bodyCarousel" data-slide-to="2" class="active"></li>
+            </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner img-overlay">
-        <div class="item">
-            <img src="imgs\neurons_glow_1920x1080.png" class="img-responsive">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner img-overlay">
+                <div class="item">
+                    <img src="imgs\neurons_glow_1920x1080.png" class="img-responsive">
+                </div>
+                <div class="item active left">
+                    <img src="imgs\ultracortex-infinite.jpg" class="img-responsive">
+                </div>
+                <div class="item next left">
+                    <img src="imgs\uvic_aerial.jpg" class="img-responsive">
+                </div>
+            </div>
         </div>
-        <div class="item active left">
-            <img src="imgs\ultracortex-infinite.jpg" class="img-responsive">
-        </div>
-        <div class="item next left">
-            <img src="imgs\uvic_aerial.jpg" class="img-responsive">
-        </div>
-    </div>
-    
+    <!-- </div> -->
 
     <!-- Page content -->
     <div class="w3-content" style="max-width:2000px;margin-top:46px">
@@ -65,53 +67,57 @@
             adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
             adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <br>
         </div>
     </div>
 
     <!-- Block links -->
-    <div class="btn-group background-color">
-        <button style="background-color: rgb(220, 18, 238); ">
-            <a 
-            href="content/joinUs.html" 
-            style="color: rgb(255,255,255);">
-            Join Us
-            </a>
-        </button>
-        <button style="background-color: rgb(238, 179, 18);">
-            <a 
-            href="content/projects.html" 
-            style="color: rgb(255,255,255);">
-            Projects
-            </a>
-        </button>
-        <button style="background-color: rgb(18, 176, 238);">
-            <a 
-            href="content/resources.html"  
-            style="color: rgb(255,255,255);">
-            Resources
-            </a>
-        </button>
-        <button>
-            <a 
-            href="content/team.html"   
-            style="color: rgb(255,255,255);">
-            Team
-            </a>
-        </button>
-    </div> 
+    <div style="text-align: center">
+        <div class="btn-group background-color">
+            <button style="background-color: rgb(220, 18, 238); ">
+                <a 
+                href="content/joinUs.html" 
+                style="color: rgb(255,255,255);">
+                Join Us
+                </a>
+            </button>
+            <button style="background-color: rgb(238, 179, 18);">
+                <a 
+                href="content/projects.html" 
+                style="color: rgb(255,255,255);">
+                Projects
+                </a>
+            </button>
+            <button style="background-color: rgb(18, 176, 238);">
+                <a 
+                href="content/resources.html"  
+                style="color: rgb(255,255,255);">
+                Resources
+                </a>
+            </button>
+            <button>
+                <a 
+                href="content/team.html"   
+                style="color: rgb(255,255,255);">
+                Team
+                </a>
+            </button>
+        </div> 
+    </div>
+
+    <br>
 
     <footer align="middle">
-        <a 
-        href="#" 
-        class="w3-button w3-black w3-margin">
-        <i class="fa fa-arrow-up w3-margin-right"></i>
-        Back to the top
+        <a href="#" class="w3-button w3-black w3-margin">
+            <i class="fa fa-arrow-up w3-margin-right"></i>
+            Back to the top
         </a>
     </footer>
 
-    <script src="header.js"></script>
-    <script src="footer.js"></script>
-    <script src="myScript.js"></script>
+    <!-- Scripts -->
+    <script src="./scripts/header.js"></script>
+    <script src="./scripts/footer.js"></script>
+    <script src="./scripts/myScript.js"></script>
 
 </body>
 </html>
