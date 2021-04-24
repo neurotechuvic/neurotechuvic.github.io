@@ -12,7 +12,7 @@ body  {margin:0;}
 
 .navbar {
   overflow: hidden;
-  background-color: rgb(13, 2, 105);
+  background-color: #002754;
   position: fixed;
   top: 0;
   width: 100%;
@@ -30,7 +30,7 @@ body  {margin:0;}
 }
 
 .navbar a:hover {
-  color: rgb(238, 179, 18);
+  color: #F5AA1C;
 }
 
 /* slide show */
@@ -40,19 +40,41 @@ body  {margin:0;}
   height: 490px; 
 }
 
-.btn-group button {
-  background-color: #4e4caf; /* Green background */
-  border: 1px solid rgb(236, 213, 109); /* Green border */
-  color: #ffffff; /* White text */
-  font-size:xx-large;
- width: 350px;
- height: 350px;
-  cursor: pointer; /* Pointer/hand icon */
-  white-space: normal; /* Float the buttons side by side */
+/* first writng bit*/
+.writing{
+  background-color: #005493;
+  max-width:2000px;
+  margin-top:46px;
+  color: #F5AA1C;
+  font-size:large;
+  
+}
+
+.w3-container{
+  max-width:800px;
 }
 
 /* button group
 Clear floats (clearfix hack) */
+.blocklinks{
+  background-color:#C63527;
+  color: #fff;
+  font-size:large;
+
+  
+}
+
+.btn-group button {
+  background-color: #002754 ; /* Green background */
+  border: 5px solid  #fff  ; /* Green border */
+  color: #F5AA1C; /*  text */
+  font-size:xx-large;
+  width: 550px;
+  height: 350px;
+  cursor: pointer; /* Pointer/hand icon */
+ 
+}
+
 .btn-group:after {
   content: "";
   clear: both;
@@ -65,11 +87,10 @@ Clear floats (clearfix hack) */
 
 /* Add a background color on hover */
 .btn-group button:hover {
-  background-color: #df9cc3;
+  background-color: #005493;
 }
 
 
-/* first writng bit*/
 
 /* 
 Style changes in footer
@@ -144,6 +165,7 @@ Style changes in footer
    padding-right: 0px;
    padding-left: 0px;
    padding-bottom: 0px;
+   justify-content: center;
 }
 
 #slideshow_logo{

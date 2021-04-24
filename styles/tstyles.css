@@ -2,7 +2,7 @@
 
 .navbar {
   overflow: hidden;
-  background-color: rgb(13, 2, 105);
+  background-color: #002754;
   position: fixed;
   top: 0;
   width: 100%;
@@ -20,7 +20,7 @@
 }
 
 .navbar a:hover {
-  color: rgb(204, 208, 7);
+  color: #F5AA1C
 }
 
 /*end of nav-bat and start of actual team page*/
@@ -153,6 +153,6 @@ Style changes in footer
   Selects color used when hovering over links in footer
 */
 .footer-heading a:hover{
-  color:rgb(13, 2, 105);
+  color:#002754;
   transition: .2s ease-out;
 }
