@@ -41,7 +41,7 @@ body  {margin:0;}
 }
 
 /* first writng bit*/
-.writing{
+.homepage{
   background-color: #005493;
   max-width:2000px;
   margin-top:46px;
@@ -56,18 +56,11 @@ body  {margin:0;}
 
 /* button group
 Clear floats (clearfix hack) */
-.blocklinks{
-  background-color:#C63527;
-  color: #fff;
-  font-size:large;
 
-  
-}
 
 .btn-group button {
-  background-color: #002754 ; /* Green background */
-  border: 5px solid  #fff  ; /* Green border */
-  color: #F5AA1C; /*  text */
+  background-color: #F5AA1C ; /* Green background */
+  border: 5px solid  #002754  ; /* Green border */
   font-size:xx-large;
   width: 550px;
   height: 350px;
@@ -87,7 +80,7 @@ Clear floats (clearfix hack) */
 
 /* Add a background color on hover */
 .btn-group button:hover {
-  background-color: #005493;
+  background-color: #c63527;
 }
 
 
@@ -103,6 +96,7 @@ Style changes in footer
 
 .footer{
   width: 100%;
+  background-color: #c63527;
   color: #0D0269;
   display: flex;
   justify-content: center;
