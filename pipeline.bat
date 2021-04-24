@@ -1,13 +1,18 @@
-Rem '%1 is your commit message.''
-Rem 'Example: .\pipeline.bat "My commit message".'
+@echo off
+echo % + 1 is your commit message.
+echo Example: .\pipeline.bat "My commit message".
+echo.
 
-Rem 'Merging is a prerequisit to pass'
+echo Merging is a prerequisit to pass
 call git fetch
 call git merge
+echo.
 
-Rem 'Proceed to push your update.'
+echo Proceed to push your update.
 call git add .
 call git commit -m %1
 call git push
+echo.
 
-Rem 'Pipeline updated successfully!'
+echo Pipeline updated successfully!
+echo.
