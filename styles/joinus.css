@@ -1,0 +1,89 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+.icons {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.material-icons {
+  font-size: 25px !important;
+}
+
+/* navbar */
+
+a {
+  color: #5fcf80;
+}
+
+a:hover {
+  color: #86db9f;
+  text-decoration: none;
+}
+
+#header {
+  background: #519085;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+}
+
+#header .logo {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: Topcase;
+  font-family: "Poppins", sans-serif;
+}
+
+#header .logo a {
+  color: #e9e0ac;
+}
+
+#header .logo img {
+  max-height: 40px;
+}
+
+@media (max-width: 992px) {
+  #header .logo {
+    font-size: 28px;
+  }
+}
+
+/*--------Navigation Menu----------------*/
+/* DeskTop Navigation */
+.nav-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu > ul {
+  display: flex;
+}
+
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+  padding: 10px 0 10px 24px;
+}
+
+.nav-menu a {
+  display: block;
+  position: relative;
+  color: #fff;
+  transition: 0.3s;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
+  color: #e9e0ac;
+}
