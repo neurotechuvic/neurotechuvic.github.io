@@ -47,7 +47,8 @@ body  {margin:0;}
   margin-top:46px;
   color: #F5AA1C;
   font-size:large;
-  
+  margin-right: auto; 
+  margin-left: auto
 }
 
 .w3-container{
