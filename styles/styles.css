@@ -202,6 +202,10 @@ Style changes in footer
   padding-bottom: 0px;
 }
 
+.fa:hover {
+  opacity: 0.7;
+}
+
 /* Facebook */
 .fa-facebook {
   background: #3B5998;
