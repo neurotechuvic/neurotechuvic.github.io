@@ -202,3 +202,35 @@ Style changes in footer
   padding-bottom: 0px;
 }
 
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+background: #c4302b;
+color: white;
+}
+
+.fa-github {
+  background: #333;
+  color: white;
+  }
+
+.fa-instagram {
+    background: #8a3ab9;
+    color: white;
+    }
+
+.fa-twitter {
+      background: #00acee;
+      color: white;
+      }
+
