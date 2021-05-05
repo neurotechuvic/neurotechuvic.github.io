@@ -5,6 +5,7 @@ echo.
 
 echo Merging is a prerequisit to pass
 call git fetch
+call git pull
 call git merge
 echo.
 
