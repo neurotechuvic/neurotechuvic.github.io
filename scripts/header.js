@@ -14,39 +14,5 @@ $(document).ready(function() {
                         innerHTML: '<a href="' + prefix + 'index.html"><img src="' + prefix + 'imgs/logo_shadow.png" style="width: 91px ;margin: 8px;"></a>'
                 })
         );
-        $('#navbar').append(
-                $('<a>').prop({
-                        id: 'navcol-1',
-                        href: prefix +"index.html",
-                        innerHTML: 'Home'
-                })
-        );
-        $('#navbar').append(
-                $('<a>').prop({
-                        id: 'navcol-1',
-                        href: prefix + "content/team.html",
-                        innerHTML: 'Team'
-                })
-        );
-        $('#navbar').append(
-                $('<a>').prop({
-                        id: 'navcol-1',
-                        href: prefix + "content/resources.html",
-                        innerHTML: 'Resource'
-                })
-        );
-                        $('#navbar').append(
-                $('<a>').prop({
-                        id: 'navcol-1',
-                        href: prefix + "content/projects.html",
-                        innerHTML: 'Projects'
-                })
-        );
-        $('#navbar').append(
-                $('<a>').prop({
-                        id: 'navcol-1',
-                        href: prefix + "content/joinUs.html",
-                        innerHTML: 'Join Us'
-                })
-        );                        
+                       
 });
