@@ -1,0 +1,136 @@
+
+
+/*
+  Universal fonts
+*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to bottom right ,#005493,#c63527);
+  /* background-image: linear-gradient(to bottom right, #F06C64, #cf5fae); */
+}
+
+@media (max-width: 992px) {
+  #header .logo {
+    font-size: 28px;
+  }
+}
+
+main{
+  padding: 25px;
+}
+
+.icons {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.material-icons {
+  font-size: 25px !important;
+}
+
+/*HEADER*/
+#header {
+  background:#002754;
+  transition: all 0.5s;
+  font-size: 15px;
+ 
+  padding: 0px 0;
+  box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+}
+
+#header .logo {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: Topcase;
+  font-family: "Poppins", sans-serif;
+}
+
+#header .logo a {
+  color:#e6e6e6;
+}
+
+#header a:hover {
+  color: #F5AA1C;
+}
+
+#header .logo img {
+  max-height: 40px;
+}
+/*HEADER ENDS*/
+
+
+/*--------Navigation Menu----------------*/
+/* DeskTop Navigation */
+.nav-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu > ul {
+  display: flex;
+}
+
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+  padding: 10px 0 10px 24px;
+}
+
+.nav-menu a {
+  display: block;
+  position: relative;
+  color: #fff;
+  transition: 0.3s;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
+  color: #F5AA1c;
+}
+
+
+/* slide show */
+.slideshow {
+  padding: 0px;
+  margin-top: 60px;
+  height: 490px; 
+}
+
+
+/* button group
+Clear floats (clearfix hack) */
+.btn-group button {
+  background-color: #F5AA1C ; /* Green background */
+  border: 5px solid  #002754  ; /* Green border */
+  font-size:xx-large;
+  width:350px;
+  height: 130px;
+  cursor: pointer; /* Pointer/hand icon */
+ 
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #c63527;
+}
