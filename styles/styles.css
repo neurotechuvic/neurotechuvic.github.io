@@ -1,10 +1,25 @@
 
 
 /*
-  Universal font
+  Universal fonts
 */
 * {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to bottom right ,#005493,#c63527);
+  /* background-image: linear-gradient(to bottom right, #F06C64, #cf5fae); */
+}
+
+@media (max-width: 992px) {
+  #header .logo {
+    font-size: 28px;
+  }
+}
+
+main{
+  padding: 25px;
 }
 
 .icons {
@@ -15,8 +30,7 @@
   font-size: 25px !important;
 }
 
-/* navbar */
-
+/*HEADER*/
 #header {
   background:#002754;
   transition: all 0.5s;
@@ -48,12 +62,8 @@
 #header .logo img {
   max-height: 40px;
 }
+/*HEADER ENDS*/
 
-@media (max-width: 992px) {
-  #header .logo {
-    font-size: 28px;
-  }
-}
 
 /*--------Navigation Menu----------------*/
 /* DeskTop Navigation */
@@ -98,11 +108,8 @@
 }
 
 
-
 /* button group
 Clear floats (clearfix hack) */
-
-
 .btn-group button {
   background-color: #F5AA1C ; /* Green background */
   border: 5px solid  #002754  ; /* Green border */
@@ -127,8 +134,3 @@ Clear floats (clearfix hack) */
 .btn-group button:hover {
   background-color: #c63527;
 }
-
-
-
-
-
