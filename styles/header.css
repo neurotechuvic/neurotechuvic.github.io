@@ -2,22 +2,19 @@
 /*HEADER*/
 #header {
   background:#002754;
-  transition: all 0.5s;
-  font-size: 15px;
- 
+  transition: all 0.5s; 
   padding: 0px 0;
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
 }
 
 #header .logo {
-  font-size: 32px;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 600;
   letter-spacing: 1px;
   text-transform: Topcase;
   font-family: "Poppins", sans-serif;
+  font-size: 2em;
 }
 
 #header .logo a {
@@ -33,6 +30,10 @@
 }
 /*HEADER ENDS*/
 
+.header-label{
+  padding-left: 25px;
+  padding-right: 25px;
+}
 
 /*--------Navigation Menu----------------*/
 /* DeskTop Navigation */
@@ -49,7 +50,8 @@
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  padding: 10px 0 10px 24px;
+  padding-left: 25px; 
+
 }
 
 .nav-menu a {

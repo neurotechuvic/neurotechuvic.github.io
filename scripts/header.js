@@ -25,36 +25,36 @@ $(document).ready(function() {
 	$('#nav').append(
 		$('<h1>').prop({
 			id: 'navcol-1',
-			className: "logo mr-auto",
-			innerHTML: '<a href="' + prefix + 'index.html">Home</a>'
+			className: "logo",
+			innerHTML: '<a href="' + prefix + 'index.html" class="header-label">Home</a>'
 		})
 	); 
 	$('#nav').append(
 		$('<h1>').prop({
 			id: 'navcol-1',
-			className: "logo mr-auto",
-			innerHTML: '<a href="' + prefix + 'content/team.html">Team</a>'
+			className: "logo",
+			innerHTML: '<a href="' + prefix + 'content/team.html" class="header-label">Team</a>'
 		})
 	); 
 	$('#nav').append(
 		$('<h1>').prop({
 			id: 'navcol-1',
-			className: "logo mr-auto",
-			innerHTML: '<a href="' + prefix + 'content/resources.html">Resources</a>'
+			className: "logo",
+			innerHTML: '<a href="' + prefix + 'content/resources.html" class="header-label">Resources</a>'
 		})
 	); 
 	$('#nav').append(
 		$('<h1>').prop({
 			id: 'navcol-1',
-			className: "logo mr-auto",
-			innerHTML: '<a href="' + prefix + 'content/projects.html">Projects</a>'
+			className: "logo",
+			innerHTML: '<a href="' + prefix + 'content/projects.html" class="header-label">Projects</a>'
 		})
 	); 
 	$('#nav').append(
 		$('<h1>').prop({
 			id: 'navcol-1',
-			className: "logo mr-auto",
-			innerHTML: '<a href="' + prefix + 'content/joinUs.html">Join Us</a>'
+			className: "logo",
+			innerHTML: '<a href="' + prefix + 'content/joinUs.html" class="header-label">Join Us</a>'
 		})
 	); 
 
