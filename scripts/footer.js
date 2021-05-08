@@ -1,4 +1,9 @@
 
+
+  /////////////////////////////////
+ ///////////// FOOTER ////////////
+/////////////////////////////////
+
 //file prefix changes if we're not loading index.html
 var prefix = "./"
 if(!window.location.href.includes("index.html")){
@@ -23,3 +28,8 @@ $(document).ready(function() {
         );
                   
 });
+
+////////////////////////////////////////
+
+
+
