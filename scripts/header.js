@@ -63,11 +63,11 @@ $(document).ready(function() {
 			id: 'navcol-1',
 			className: "nav-menu d-none d-lg-block",
 			innerHTML: 
-			    '<ul>' +
-            '<li><a href="#"><i class="material-icons sms">sms</i></a></li>' +
-            '<li><a href="#"><i class="material-icons notifications">notifications</i></a></li>'+
-            '<li><a href="#"> <i class="material-icons help">help</i></a></li>' +
-            '<li><a href="#"><i class="material-icons Email">email</i></a></li>' +
+			'<ul>' +
+            '<li><a href="https://www.facebook.com/"><i class="material-icons facebook">facebook</i></a></li>' +
+			'<li><a href="https://www.youtube.com/watch?v=6IJuLtj3400&list=PL7yYIG1eq9bRWBbc8xcwoRwLu1Dyc7qP0"> <i class="material-icons ">play_circle</i></a></li>'+
+            '<li><a href="https://github.com/neurotechuvic"><i class="material-icons folder">folder</i></a></li>'+
+            '<li><a href=""><i class="material-icons Email">email</i></a></li>' +
           '</ul>'
 		})
 	); 
