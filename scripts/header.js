@@ -7,14 +7,42 @@ if(!window.location.href.includes("index.html")){
 
 //When the document is ready
 $(document).ready(function() {
-	//Append into the navbar
+	//Divide the header
 	$('#header').append(
-		$('<div>').prop({
-			id: 'nav',
+		$('<table>').prop({
+			id: 'table1',
 			className: "navbar navbar-expand-lg  bg",
 		})
 	);
-	$('#nav').append(
+	$('#table1').append(
+		$('<tr>').prop({
+			id: 'row1',
+			className: "navbar navbar-expand-lg  bg",
+		})
+	);
+
+	$('#row1').append(
+		$('<span>').prop({
+			id: 'siteLogo',
+			className: "navbar navbar-expand-lg  bg",
+		})
+	);
+	$('#row1').append(
+		$('<span>').prop({
+			id: 'siteLinks',
+			className: "navbar navbar-expand-lg  bg",
+		})
+	);
+	$('#row1').append(
+		$('<span>').prop({
+			id: 'navicons',
+			className: "navbar navbar-expand-lg  bg",
+		})
+	);
+
+
+	// The site links
+	$('#siteLogo').append(
 		$('<a>').prop({
 			id: 'navcol-1',
 			className: "navbar-brand",
@@ -22,35 +50,35 @@ $(document).ready(function() {
 			innerHTML: '<img src="' + prefix + 'imgs/logo_shadow.png" width="70" height="50" alt="">'
 		})
 	);  
-	$('#nav').append(
+	$('#siteLinks').append(
 		$('<h1>').prop({
 			id: 'navcol-1',
 			className: "logo",
 			innerHTML: '<a href="' + prefix + 'index.html" class="header-label">Home</a>'
 		})
 	); 
-	$('#nav').append(
+	$('#siteLinks').append(
 		$('<h1>').prop({
 			id: 'navcol-1',
 			className: "logo",
 			innerHTML: '<a href="' + prefix + 'content/team.html" class="header-label">Team</a>'
 		})
 	); 
-	$('#nav').append(
+	$('#siteLinks').append(
 		$('<h1>').prop({
 			id: 'navcol-1',
 			className: "logo",
 			innerHTML: '<a href="' + prefix + 'content/resources.html" class="header-label">Resources</a>'
 		})
 	); 
-	$('#nav').append(
+	$('#siteLinks').append(
 		$('<h1>').prop({
 			id: 'navcol-1',
 			className: "logo",
 			innerHTML: '<a href="' + prefix + 'content/projects.html" class="header-label">Projects</a>'
 		})
 	); 
-	$('#nav').append(
+	$('#siteLinks').append(
 		$('<h1>').prop({
 			id: 'navcol-1',
 			className: "logo",
@@ -58,7 +86,8 @@ $(document).ready(function() {
 		})
 	); 
 
-	$('#nav').append(
+	// The Navicons
+	$('#navicons').append(
 		$('<nav>').prop({
 			id: 'navcol-1',
 			className: "nav-menu d-none d-lg-block",

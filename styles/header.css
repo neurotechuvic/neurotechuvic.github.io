@@ -69,3 +69,12 @@
 .nav-menu li:hover > a {
   color: #F5AA1c;
 }
+
+#siteLogo{
+  width: 200px;
+  white-space:nowrap !important;
+}
+
+span{
+  white-space:nowrap !important;
+}
