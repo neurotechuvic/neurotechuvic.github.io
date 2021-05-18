@@ -87,3 +87,16 @@ Clear floats (clearfix hack) */
 .btn-group button:hover {
   background-color: #c63527;
 }
+
+.arrow {
+	position: fixed;
+	background-color: #002754; 
+	color: #fff;
+    width: 35px;
+	height: 35px;
+	right: 20px;
+	bottom: 50px;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 100% ;
+}
