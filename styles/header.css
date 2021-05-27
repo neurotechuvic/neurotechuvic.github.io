@@ -70,11 +70,30 @@
   color: #F5AA1c;
 }
 
-#siteLogo{
-  width: 200px;
+span{
   white-space:nowrap !important;
 }
 
-span{
+#row1{
+  width: 100%;
+}
+
+#siteLogo{
   white-space:nowrap !important;
+  width: 7%;
+}
+
+#siteLinks{
+  width: 80%;
+}
+
+#navicons{
+  /* width: 15%; */
+  margin-right: 0;
+  text-align: end;
+  text-align: right;
+}
+
+header{
+  width: 100%;
 }
