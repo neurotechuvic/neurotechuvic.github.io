@@ -47,4 +47,5 @@ main{
 
 #banner{
   background-image: url("../imgs/neurons_glow_1920x1080.png");
+  background-size: cover;
 }
