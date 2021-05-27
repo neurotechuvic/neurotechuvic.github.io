@@ -14,34 +14,44 @@ $(document).ready(function() {
 			className: "navbar navbar-expand-lg  bg",
 		})
 	);
+
+	// One Table
+	$('#table1').append(
+		$('<colgroup>').prop({
+			id: 'colgroup1',
+			innerHTML: 	'<col span="1" style="width: 20%;">' +
+						'<col span="1" style="width: 65%;">' +
+						'<col span="1" style="width: 15%;">'
+		})
+	);
 	$('#table1').append(
 		$('<tr>').prop({
 			id: 'row1',
-			className: "navbar navbar-expand-lg  bg",
+			className: "navbar navbar-expand-lg  bg"
 		})
 	);
-
+	
+	// Three cells
 	$('#row1').append(
-		$('<span>').prop({
+		$('<td>').prop({
 			id: 'siteLogo',
 			className: "navbar navbar-expand-lg  bg",
 		})
 	);
 	$('#row1').append(
-		$('<span>').prop({
+		$('<td>').prop({
 			id: 'siteLinks',
 			className: "navbar navbar-expand-lg  bg",
 		})
 	);
 	$('#row1').append(
-		$('<span>').prop({
+		$('<td>').prop({
 			id: 'navicons',
 			className: "navbar navbar-expand-lg  bg",
 		})
 	);
 
-
-	// The site links
+	// The site logo
 	$('#siteLogo').append(
 		$('<a>').prop({
 			id: 'navcol-1',
@@ -50,43 +60,40 @@ $(document).ready(function() {
 			innerHTML: '<img src="' + prefix + 'imgs/logo_shadow.png" width="70" height="50" alt="">'
 		})
 	);  
+
+	// The site links
 	$('#siteLinks').append(
 		$('<h1>').prop({
-			id: 'navcol-1',
 			className: "logo",
 			innerHTML: '<a href="' + prefix + 'index.html" class="header-label">Home</a>'
 		})
 	); 
 	$('#siteLinks').append(
 		$('<h1>').prop({
-			id: 'navcol-1',
 			className: "logo",
 			innerHTML: '<a href="' + prefix + 'content/team.html" class="header-label">Team</a>'
 		})
 	); 
 	$('#siteLinks').append(
 		$('<h1>').prop({
-			id: 'navcol-1',
 			className: "logo",
 			innerHTML: '<a href="' + prefix + 'content/resources.html" class="header-label">Resources</a>'
 		})
 	); 
 	$('#siteLinks').append(
 		$('<h1>').prop({
-			id: 'navcol-1',
 			className: "logo",
 			innerHTML: '<a href="' + prefix + 'content/projects.html" class="header-label">Projects</a>'
 		})
 	); 
 	$('#siteLinks').append(
 		$('<h1>').prop({
-			id: 'navcol-1',
 			className: "logo",
 			innerHTML: '<a href="' + prefix + 'content/joinUs.html" class="header-label">Join Us</a>'
 		})
 	); 
 
-	// The Navicons
+	// The navicons
 	$('#navicons').append(
 		$('<nav>').prop({
 			id: 'navcol-1',
