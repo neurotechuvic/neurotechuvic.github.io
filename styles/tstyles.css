@@ -36,7 +36,7 @@ h1 {
 .about-section {
   padding: 200px;
   text-align: center;
-  /*background-image: url(../imgs/neurons_glow_1920x1080.png);*/
+  background-image: url(../imgs/neurons_glow_1920x1080.png);
   margin-right: auto;
   margin-left: auto;
   color: white;
