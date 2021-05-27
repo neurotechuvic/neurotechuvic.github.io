@@ -37,10 +37,14 @@ main{
   height: 490px; 
 }
 
-
+/* BANNER */
 #banner-text{
   text-shadow: 2px 2px black; 
   max-width: 75%; 
   margin-right: auto; 
   margin-left: auto;
+}
+
+#banner{
+  background-image: url("../imgs/neurons_glow_1920x1080.png");
 }
