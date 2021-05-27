@@ -103,7 +103,7 @@ $(document).ready(function() {
             '<li><a href="https://www.facebook.com/"><i class="material-icons facebook">facebook</i></a></li>' +
 			'<li><a href="https://www.youtube.com/watch?v=6IJuLtj3400&list=PL7yYIG1eq9bRWBbc8xcwoRwLu1Dyc7qP0"> <i class="material-icons ">play_circle</i></a></li>'+
             '<li><a href="https://github.com/neurotechuvic"><i class="material-icons folder">folder</i></a></li>'+
-            '<li><a href="mailto:gabrieltaves@uvic.ca"><i class="material-icons Email">email</i></a></li>' +
+            '<li><a href=""><i class="material-icons Email">email</i></a></li>' +
           '</ul>'
 		})
 	); 
