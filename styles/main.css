@@ -37,3 +37,10 @@ main{
   height: 490px; 
 }
 
+
+#banner-text{
+  text-shadow: 2px 2px black; 
+  max-width: 75%; 
+  margin-right: auto; 
+  margin-left: auto;
+}
