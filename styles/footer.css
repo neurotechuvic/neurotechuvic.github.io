@@ -1,9 +1,9 @@
 
 /* NEW CSS */
 .footer {
-  position: fixed;
+  position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -50;
   width: 100%;
   background-color: #002754;
   color: #e6e6e6;
