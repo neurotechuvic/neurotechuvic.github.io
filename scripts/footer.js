@@ -98,7 +98,7 @@ $(document).ready(function() {
                                   '<div class="socials">' + 
                                     '<a href="https://www.facebook.com/neurotechuvic2021"><i class="fab fa-facebook-f"></i></i></a>' +
                                     '<a href="https://www.instagram.com/uvicneurotech/"><i class="fab fa-instagram"></i></i></a>' +
-                                    '<a href="#"><i class="fab fa-twitter"></i></i></a>' +
+                                    '<a href="https://twitter.com/NeurotechU"><i class="fab fa-twitter"></i></i></a>' +
                                     '<a href="https://www.youtube.com/channel/UCZwPAcQAexJp9ky0V9R3b6w"><i class="fab fa-youtube"></i></i></a>' +
                                   '</div>' 
                 })
